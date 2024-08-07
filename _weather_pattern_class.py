@@ -412,8 +412,11 @@ class weather_patterns(object):
 	########################
 
 	def load_mapping_for_plotting(self, tag):
+		print( self._dir_lvl2, tag)
 		self.destroy_tree(3)
 		self._post_mapping_tag = tag
+		print( self._dir_lvl2, tag)
+
 		self._dir_lvl3 = self._dir_lvl2+'/'+tag
 		if os.path.isdir(self._dir_lvl3) == False:
 			os.mkdir(self._dir_lvl3)

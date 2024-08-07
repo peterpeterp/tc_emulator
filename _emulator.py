@@ -27,8 +27,8 @@ warnings.filterwarnings('ignore')
 import scipy
 from scipy import stats
 
-from addons.kl import KLdivergence
-import addons.ndtest as ndtest
+#from addons.kl import KLdivergence
+#import addons.ndtest as ndtest
 
 from tqdm import tqdm
 
